@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="QSP.RunnerScript">
+        <methods>
+          <include name="openAppln"/>
+          <include name="closeAppln"/>
+          <include name="vlaidLogin"/>
+        </methods>
+      </class> <!-- QSP.RunnerScript -->
+      <class name="QSP.AmazonScript">
+        <methods>
+          <include name="openAppln"/>
+          <include name="clici"/>
+          <include name="search"/>
+          <include name="closeAppln"/>
+        </methods>
+      </class> <!-- QSP.AmazonScript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
